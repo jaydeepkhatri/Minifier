@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #eeeeee;
+}
+
+.header {
+  background: #0080ff;
+  color: #ffffff;
+  font-weight: 600;
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.header nav {
+  padding: 20px 0;
+  height: 100%;
+  font-size: 40px;
+  width: 90%;
+  margin: auto;
+}
+
+.container {
+  text-align: center;
+}
+
+.container .textinput {
+  max-width: 800px;
+  background: #fff;
+  margin: auto;
+  display: block;
+  margin-top: 50px;
+  width: 80%;
+  height: 250px;
+  resize: vertical;
+  border-radius: 4px;
+  padding: 4px;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+  border: 2px solid #3b3b3b;
+}
+
+.container .textinput:hover, .container .textinput:active, .container .textinput:focus {
+  border: 2px solid #0080ff;
+  -webkit-box-shadow: 0 0 4px rgba(0, 128, 255, 0.2);
+          box-shadow: 0 0 4px rgba(0, 128, 255, 0.2);
+}
+
+.container .convertbtn {
+  margin-top: 50px;
+  border: 0;
+  background: #0080ff;
+  color: #fff;
+  display: inline-block;
+  padding: 8px 60px;
+  border-radius: 20px;
+}
+/*# sourceMappingURL=main.css.map */

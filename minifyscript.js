@@ -2,8 +2,8 @@ const fullcodeEl = document.querySelector("#fullcode");
 
 const minifiedcodeEl = document.querySelector("#minified");
 
-let patterns = ["\n", " ;", "; ", " =", "= ", ": ", " :", " ,", ", ", " {", "{ ", " }", "} "];
-let tbu = ["", ";", ";", "=", "=", ":", ":", ",", ",", "{", "{", "}", "}"];
+let patterns = ["\n", " ;", "; ", " =", "= ", ": ", " :", " ,", ", ", " {", "{ ", " }", "} ", " >", "> ", " [", " [", " ]", "] "];
+let tbu = ["", ";", ";", "=", "=", ":", ":", ",", ",", "{", "{", "}", "}", ">", ">", "[", "[", "]", "]"];
 
 function convert() {
     opencode = fullcodeEl.value;
